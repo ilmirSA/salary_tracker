@@ -37,7 +37,7 @@ uvicorn main:app --reload
 Copy
 
 ```
-curl -X POST "http://localhost:8000/login?username=john&password=password" 
+curl -X POST "http://localhost:8000/login?username=ilmir&password=password" 
 ```
 
 Ответ:
