@@ -34,7 +34,7 @@ uvicorn main:app --reload
 
 1.  Получение токена доступа:
 
-Copy
+
 
 ```
 curl -X POST "http://localhost:8000/login?username=ilmir&password=password" 
@@ -51,7 +51,7 @@ curl -X POST "http://localhost:8000/login?username=ilmir&password=password"
 
 2.  Получение информации о зарплате и дате следующего повышения:
 
-Copy
+
 
 ```
 curl -X GET "http://localhost:8000/salary" -H "Authorization: Bearer <token>"
